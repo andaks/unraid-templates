@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Tile38</Name>
+  <Repository>tile38/tile38</Repository>
+  <Registry>https://hub.docker.com/r/tile38/tile38/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://tile38.com/</Project>
+  <Overview>Tile38 is an open source, in-memory geolocation data store, spatial index, and realtime geofence. It supports a variety of object types including lat/lon points, bounding boxes, XYZ tiles, Geohashes, and GeoJSON. For more information visit: http://tile38.com
+  </Overview>
+  <Category>Tools:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://tile38.com/img/logo.svg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1729739938</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Application Port" Target="9851" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9851</Config>
+  <Config Name="Data Path" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/tile38</Config>
+</Container>
