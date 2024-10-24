@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/177991-andaks-docker-application/</Support>
   <Project>https://tile38.com/</Project>
   <Overview>Tile38 is an open source, in-memory geolocation data store, spatial index, and realtime geofence. It supports a variety of object types including lat/lon points, bounding boxes, XYZ tiles, Geohashes, and GeoJSON. For more information visit: http://tile38.com
   </Overview>
