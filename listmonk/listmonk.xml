@@ -15,7 +15,7 @@ Free and open source.</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:9000]</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/andaks/unraid-templates/blob/0e90a017fa8903b595e33e459b81addb4cf8ec77/listmonk/listmonk-logo.png</Icon>
+  <Icon>https://github.com/andaks/unraid-templates/blob/master/listmonk/listmonk-logo.png</Icon>
   <ExtraParams/>
   <PostArgs>sh -c "./listmonk --install --idempotent --yes --config '' ./listmonk --upgrade --yes --config '' ./listmonk --config ''"</PostArgs>
   <CPUset/>
