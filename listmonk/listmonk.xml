@@ -14,8 +14,8 @@ Performance and features packed into a single binary.&#13;
 Free and open source.</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:9000]</WebUI>
-  <TemplateURL/>
-  <Icon>https://github.com/andaks/unraid-templates/blob/master/listmonk/listmonk-logo.png</Icon>
+  <TemplateURL>https://github.com/andaks/unraid-templates/blob/master/listmonk/listmonk.xml</TemplateURL>
+  <Icon>https://github.com/andaks/unraid-templates/blob/master/listmonk/listmonk-logo.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs>sh -c "./listmonk --install --idempotent --yes --config '' ./listmonk --upgrade --yes --config '' ./listmonk --config ''"</PostArgs>
   <CPUset/>
