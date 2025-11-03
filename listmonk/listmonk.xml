@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>listmonk</Name>
+  <Repository>listmonk/listmonk:latest</Repository>
+  <Registry>https://hub.docker.com/r/listmonk/listmonk</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/177991-support-andaks-docker-application/</Support>
+  <Project>https://listmonk.app/</Project>
+  <Overview>Self-hosted newsletter and mailing list manager&#13;
+Performance and features packed into a single binary.&#13;
+Free and open source.</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:9000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/andaks/unraid-templates/blob/0e90a017fa8903b595e33e459b81addb4cf8ec77/listmonk/listmonk-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs>sh -c "./listmonk --install --idempotent --yes --config '' ./listmonk --upgrade --yes --config '' ./listmonk --config ''"</PostArgs>
+  <CPUset/>
+  <DateInstalled>1762165951</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Application Port" Target="9000" Default="9000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9000</Config>
+  <Config Name="Upload Folder" Target="/listmonk/uploads" Default="/mnt/user/appdata/listmonk/uploads" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/listmonk/uploads</Config>
+  <Config Name="App Address" Target="LISTMONK_app__address" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0.0.0.0:9000</Config>
+  <Config Name="DB Host" Target="LISTMONK_db__host" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">192.168.77.251</Config>
+  <Config Name="DB Port" Target="LISTMONK_db__port" Default="5432" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">5432</Config>
+  <Config Name="DB Name" Target="LISTMONK_db__database" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">listmonkdb</Config>
+  <Config Name="DB User" Target="LISTMONK_db__user" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">listmonkuser</Config>
+  <Config Name="DB Password" Target="LISTMONK_db__password" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">listmonkpass</Config>
+  <Config Name="DB SSL Mode" Target="LISTMONK_db__ssl_mode" Default="disable" Mode="" Description="disable or require" Type="Variable" Display="always" Required="false" Mask="false">disable</Config>
+  <Config Name="Time Zone" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Asia/Kuala_Lumpur</Config>
+  <TailscaleStateDir/>
+</Container>
