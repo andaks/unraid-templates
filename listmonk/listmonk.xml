@@ -23,15 +23,15 @@ Free and open source.</Overview>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Application Port" Target="9000" Default="9000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9000</Config>
-  <Config Name="Upload Folder" Target="/listmonk/uploads" Default="/mnt/user/appdata/listmonk/uploads" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/listmonk/uploads</Config>
-  <Config Name="App Address" Target="LISTMONK_app__address" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0.0.0.0:9000</Config>
-  <Config Name="DB Host" Target="LISTMONK_db__host" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">192.168.77.251</Config>
-  <Config Name="DB Port" Target="LISTMONK_db__port" Default="5432" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">5432</Config>
-  <Config Name="DB Name" Target="LISTMONK_db__database" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">listmonkdb</Config>
-  <Config Name="DB User" Target="LISTMONK_db__user" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">listmonkuser</Config>
-  <Config Name="DB Password" Target="LISTMONK_db__password" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">listmonkpass</Config>
+  <Config Name="Application Port" Target="9000" Default="9000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">9000</Config>
+  <Config Name="Upload Folder" Target="/listmonk/uploads" Default="/mnt/user/appdata/listmonk/uploads" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/listmonk/uploads</Config>
+  <Config Name="App Address" Target="LISTMONK_app__address" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">0.0.0.0:9000</Config>
+  <Config Name="DB Host" Target="LISTMONK_db__host" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">192.168.77.251</Config>
+  <Config Name="DB Port" Target="LISTMONK_db__port" Default="5432" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">5432</Config>
+  <Config Name="DB Name" Target="LISTMONK_db__database" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">listmonkdb</Config>
+  <Config Name="DB User" Target="LISTMONK_db__user" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">listmonkuser</Config>
+  <Config Name="DB Password" Target="LISTMONK_db__password" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true">listmonkpass</Config>
   <Config Name="DB SSL Mode" Target="LISTMONK_db__ssl_mode" Default="disable" Mode="" Description="disable or require" Type="Variable" Display="always" Required="false" Mask="false">disable</Config>
-  <Config Name="Time Zone" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Asia/Kuala_Lumpur</Config>
+  <Config Name="Time Zone" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">Asia/Kuala_Lumpur</Config>
   <TailscaleStateDir/>
 </Container>
