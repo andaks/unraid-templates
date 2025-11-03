@@ -22,7 +22,7 @@ Free and open source.</Overview>
   <DateInstalled>1762165951</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Requires/>
+  <Requires>Postgresql database</Requires>
   <Config Name="Application Port" Target="9000" Default="9000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">9000</Config>
   <Config Name="Upload Folder" Target="/listmonk/uploads" Default="/mnt/user/appdata/listmonk/uploads" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/listmonk/uploads</Config>
   <Config Name="App Address" Target="LISTMONK_app__address" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">0.0.0.0:9000</Config>
