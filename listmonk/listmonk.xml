@@ -17,7 +17,7 @@ Free and open source.</Overview>
   <TemplateURL>https://github.com/andaks/unraid-templates/blob/master/listmonk/listmonk.xml</TemplateURL>
   <Icon>https://github.com/andaks/unraid-templates/blob/master/listmonk/listmonk-logo.png?raw=true</Icon>
   <ExtraParams/>
-  <PostArgs>sh -c "./listmonk --install --idempotent --yes --config '' && ./listmonk --upgrade --yes --config '' && ./listmonk --config ''"</PostArgs>
+  <PostArgs>sh -c "./listmonk --install --idempotent --yes --config '' &amp;&amp; ./listmonk --upgrade --yes --config '' &amp;&amp; ./listmonk --config ''"</PostArgs>
   <CPUset/>
   <DateInstalled>1762165951</DateInstalled>
   <DonateText/>
