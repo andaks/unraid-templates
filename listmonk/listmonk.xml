@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>listmonk</Name>
+  <Name>Listmonk</Name>
   <Repository>listmonk/listmonk:latest</Repository>
   <Registry>https://hub.docker.com/r/listmonk/listmonk</Registry>
   <Network>bridge</Network>
