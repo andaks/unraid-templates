@@ -18,7 +18,7 @@ Be it a home network or an organization's network, having a locally running DNS 
   <WebUI>http://[IP]:[PORT:5380]</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/andaks/unraid-templates/blob/master/technitium-dns-server/technitium-logo.png?raw=true</Icon>
-  <ExtraParams/>
+  <ExtraParams>--sysctl net.ipv4.ip_local_port_range="1024 65535"</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1767113024</DateInstalled>
