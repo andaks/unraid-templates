@@ -30,6 +30,6 @@ Be it a home network or an organization's network, having a locally running DNS 
   <Config Name="DNS service TCP" Target="53" Default="53" Mode="tcp" Description="TCP DNS service" Type="Port" Display="always" Required="false" Mask="false">53</Config>
   <Config Name="DNS service UDP" Target="53" Default="53" Mode="udp" Description="UDP DNS Service" Type="Port" Display="always" Required="false" Mask="false">53</Config>
   <Config Name="DNS Server Domain" Target="DNS_SERVER_DOMAIN" Default="dns-server" Mode="" Description="The primary domain name used by this DNS Server to identify itself." Type="Variable" Display="always" Required="false" Mask="false">dns-server</Config>
-  <Config Name="DNS Server Admin Password" Target="DNS_SERVER_ADMIN_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true">P@ssw0rd</Config>
+  <Config Name="DNS Server Admin Password" Target="DNS_SERVER_ADMIN_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true">password</Config>
   <TailscaleStateDir/>
 </Container>
