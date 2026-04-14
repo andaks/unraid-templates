@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>zabbix-server-pgsql</Name>
+  <Repository>zabbix/zabbix-server-pgsql</Repository>
+  <Registry>https://hub.docker.com/r/zabbix/zabbix-server-pgsql</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/177991-support-andaks-docker-application</Support>
+  <Project>https://www.zabbix.com/</Project>
+  <ReadMe/>
+  <Overview>Zabbix server with PostgreSQL database support&#13;
+&#13;
+Zabbix server is the central process of Zabbix software. The server performs the polling and trapping of data, it calculates triggers, sends notifications to users. It is the central component to which Zabbix agents and proxies report data on availability and integrity of systems. The server can itself remotely check networked services (such as web servers and mail servers) using simple service checks.</Overview>
+  <Category>Network:Management</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/vrx-666/unraid-xml/master/img/zabbix.jpg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1776180571</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Database Server" Target="DB_SERVER_HOST" Default="" Mode="" Description="Postgresql Database Server FQDN / IP" Type="Variable" Display="always" Required="true" Mask="false">SERVER_HOST</Config>
+  <Config Name="Database Port" Target="DB_SERVER_PORT" Default="5432" Mode="" Description="Port of PostgreSQL server. By default, value is '5432'." Type="Variable" Display="always" Required="true" Mask="false">5432</Config>
+  <Config Name="Database User" Target="POSTGRES_USER" Default="" Mode="" Description="Database User" Type="Variable" Display="always" Required="true" Mask="false">DB_USER</Config>
+  <Config Name="Database Password" Target="POSTGRES_PASSWORD" Default="" Mode="" Description="Database Password" Type="Variable" Display="always" Required="true" Mask="true">DB_PASS</Config>
+  <Config Name="Database Name" Target="POSTGRES_DB" Default="" Mode="" Description="Zabbix database name. By default, value is zabbix" Type="Variable" Display="always" Required="true" Mask="false">zabbix</Config>
+  <Config Name="Listen Port" Target="10051" Default="" Mode="tcp" Description="Used for communication with zabbix server" Type="Port" Display="always" Required="true" Mask="false">10051</Config>
+  <Config Name="Alert Script Path" Target="/usr/lib/zabbix/alertscripts" Default="" Mode="rw" Description="Folder for alert script" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/zabbix-server-pgsql/alertscripts</Config>
+  <Config Name="External Script Path" Target="/usr/lib/zabbix/externalscripts" Default="" Mode="rw" Description="Folder for external script" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/zabbix-server-pgsql/externalscripts</Config>
+  <TailscaleStateDir/>
+</Container>
