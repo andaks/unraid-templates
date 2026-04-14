@@ -16,7 +16,7 @@ Zabbix server is the central process of Zabbix software. The server performs the
   <Category>Network:Management</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/vrx-666/unraid-xml/master/img/zabbix.jpg</Icon>
+  <Icon>https://raw.githubusercontent.com/andaks/unraid-templates/master/zabbix/Zabbix_logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
