@@ -32,7 +32,7 @@ Zabbix web interface is a part of Zabbix software. It is used to manage resource
   <Category>Network:Management</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/andaks/unraid-templates/master/zabbix/Zabbix_logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/andaks/unraid-templates/master/zabbix/Zabbix_logo.jpg</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
