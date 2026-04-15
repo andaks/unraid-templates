@@ -3,6 +3,22 @@
   <Name>zabbix-web-apache-pgsql</Name>
   <Repository>zabbix/zabbix-web-apache-pgsql</Repository>
   <Registry>https://hub.docker.com/r/zabbix/zabbix-web-apache-pgsql/</Registry>
+  <Branch>
+    <Tag>alpine-7.0-latest</Tag>
+    <TagDescription>Alpine 7.0</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>alpine-7.4-latest</Tag>
+    <TagDescription>Alpine 7.4</TagDescription>
+  </Branch>
+    <Branch>
+    <Tag>ubuntu-7.0-latest</Tag>
+    <TagDescription>Ubuntu 7.0</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>ubuntu-7.4-latest</Tag>
+    <TagDescription>Ubuntu 7.4</TagDescription>
+  </Branch>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
