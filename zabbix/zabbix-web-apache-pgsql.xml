@@ -50,5 +50,6 @@ Zabbix web interface is a part of Zabbix software. It is used to manage resource
   <Config Name="PHP Timezone" Target="PHP_TZ" Default="" Mode="" Description="The variable is timezone in PHP format. Full list of supported timezones are available on php.net" Type="Variable" Display="always" Required="false" Mask="false">Asia/Kuala_Lumpur</Config>
   <Config Name="Zabbix Server Name" Target="ZBX_SERVER_NAME" Default="" Mode="" Description="The variable is visible Zabbix installation name in right or left top corner of the web interface." Type="Variable" Display="always" Required="false" Mask="false">My Zabbix Instance</Config>
   <Config Name="HTTP" Target="8080" Default="" Mode="tcp" Description="Port for HTTP Access" Type="Port" Display="always" Required="true" Mask="false">8085</Config>
+  <Config Name="Rebrand Path" Target="/usr/share/zabbix/local/conf" Default="" Mode="rw" Description="Configuration path for rebrand" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/zabbix-web-apache-pgsql/rebrand</Config>
   <TailscaleStateDir/>
 </Container>
