@@ -30,7 +30,7 @@
 &#13;
 Zabbix web interface is a part of Zabbix software. It is used to manage resources under monitoring and view monitoring statistics.</Overview>
   <Category>Network:Management</Category>
-  <WebUI/>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/andaks/unraid-templates/master/zabbix/Zabbix_logo.jpg</Icon>
   <ExtraParams/>
