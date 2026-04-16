@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>chirpstack-rest-api</Name>
+  <Repository>chirpstack/chirpstack-rest-api</Repository>
+  <Registry>https://hub.docker.com/r/chirpstack/chirpstack-rest-api</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/177991-support-andaks-docker-application</Support>
+  <Project>https://www.chirpstack.io/</Project>
+  <ReadMe>Required: chirpstack</ReadMe>
+  <Overview>ChirpStack Gateway Bridge is a service which converts LoRa&#xAE; Packet Forwarder protocols into a ChirpStack common data-format.</Overview>
+  <Category>HomeAutomation: Other:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/andaks/unraid-templates/master/chirpstack/chirpstack_logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs>--server chirpstack:8080 --bind 0.0.0.0:8090 --insecure</PostArgs>
+  <CPUset/>
+  <DateInstalled>1776310648</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Application Port" Target="8090" Default="" Mode="tcp" Description="Port to access chirpstack api" Type="Port" Display="always" Required="true" Mask="false">8090</Config>
+  <TailscaleStateDir/>
+</Container>
