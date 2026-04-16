@@ -22,7 +22,7 @@
   <Support>https://forums.unraid.net/topic/177991-support-andaks-docker-application</Support>
   <Project>https://www.chirpstack.io/</Project>
   <ReadMe>Required: chirpstack</ReadMe>
-  <Overview>ChirpStack Gateway Bridge is a service which converts LoRa&#xAE; Packet Forwarder protocols into a ChirpStack common data-format.
+  <Overview>A proxy component that exposes the ChirpStack (v4) gRPC API as a REST API.
     Required: chirpstack
   </Overview>
   <Category>HomeAutomation: Other:</Category>
