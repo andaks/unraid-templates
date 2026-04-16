@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>chirpstack-gateway-bridge</Name>
+  <Repository>chirpstack/chirpstack-gateway-bridge</Repository>
+  <Registry>https://hub.docker.com/r/chirpstack/chirpstack-gateway-bridge</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/177991-support-andaks-docker-application</Support>
+  <Project>https://www.chirpstack.io/</Project>
+  <ReadMe>Required: chirpstack, mqtt server example mosquitto</ReadMe>
+  <Overview>ChirpStack Gateway Bridge is a service which converts LoRa&#xAE; Packet Forwarder protocols into a ChirpStack common data-format.</Overview>
+  <Category>HomeAutomation: Other:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/andaks/unraid-templates/master/chirpstack/chirpstack_logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1776310163</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Application Port" Target="1700" Default="" Mode="udp" Description="Port to access chirpstack" Type="Port" Display="always" Required="true" Mask="false">1700</Config>
+  <Config Name="Host Path 1" Target="/etc/chirpstack-gateway-bridge" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/chirpstack-gateway-bridge</Config>
+  <TailscaleStateDir/>
+</Container>
