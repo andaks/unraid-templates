@@ -3,6 +3,10 @@
   <Name>chirpstack</Name>
   <Repository>chirpstack/chirpstack</Repository>
   <Registry>https://hub.docker.com/r/chirpstack/chirpstack</Registry>
+  <Branch>
+    <Tag>4</Tag>
+    <TagDescription>Version 4</TagDescription>
+  </Branch>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
