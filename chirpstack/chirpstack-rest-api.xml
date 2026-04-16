@@ -3,6 +3,18 @@
   <Name>chirpstack-rest-api</Name>
   <Repository>chirpstack/chirpstack-rest-api</Repository>
   <Registry>https://hub.docker.com/r/chirpstack/chirpstack-rest-api</Registry>
+  <Branch>
+    <Tag>4</Tag>
+    <TagDescription>Version 4</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>4.17</Tag>
+    <TagDescription>Version 4.17</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>4.16</Tag>
+    <TagDescription>Version 4.16</TagDescription>
+  </Branch>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
