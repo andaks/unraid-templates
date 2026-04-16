@@ -22,7 +22,10 @@
   <Support>https://forums.unraid.net/topic/177991-support-andaks-docker-application</Support>
   <Project>https://www.chirpstack.io/</Project>
   <ReadMe>Required: chirpstack, mqtt server example mosquitto</ReadMe>
-  <Overview>ChirpStack Gateway Bridge is a service which converts LoRa&#xAE; Packet Forwarder protocols into a ChirpStack common data-format.</Overview>
+  <Overview>ChirpStack Gateway Bridge is a service which converts LoRa&#xAE; Packet Forwarder protocols into a ChirpStack common data-format.
+    Required: chirpstack, mqtt server example mosquitto
+  
+  </Overview>
   <Category>HomeAutomation: Other:</Category>
   <WebUI/>
   <TemplateURL/>
