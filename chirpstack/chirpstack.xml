@@ -1,1 +1,28 @@
-
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>chirpstack</Name>
+  <Repository>chirpstack/chirpstack</Repository>
+  <Registry>https://hub.docker.com/r/chirpstack/chirpstack</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/177991-support-andaks-docker-application</Support>
+  <Project>https://www.chirpstack.io/</Project>
+  <ReadMe>Required: redis, postgresql, mqtt server example mosquitto</ReadMe>
+  <Overview>ChirpStack is an open-source LoRaWAN Network Server which can be used to setup private or public LoRaWAN networks. ChirpStack provides a web-interface for the management of gateways, devices and tenants as well to setup data integrations with the major cloud providers, databases and services commonly used for handling device data. ChirpStack provides a gRPC based API that can be used to integrate or extend ChirpStack.</Overview>
+  <Category>HomeAutomation: Other:</Category>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/andaks/unraid-templates/master/chirpstack/chirpstack_logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs>-c /etc/chirpstack</PostArgs>
+  <CPUset/>
+  <DateInstalled>1776308209</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Application Port" Target="8080" Default="" Mode="tcp" Description="Port to access chirpstack" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="Host Path 1" Target="/etc/chirpstack" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/chirpstack</Config>
+  <TailscaleStateDir/>
+</Container>
